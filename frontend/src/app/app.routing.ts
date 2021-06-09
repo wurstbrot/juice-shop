@@ -9,6 +9,7 @@ import { BasketComponent } from './basket/basket.component'
 import { TrackResultComponent } from './track-result/track-result.component'
 import { ContactComponent } from './contact/contact.component'
 import { AboutComponent } from './about/about.component'
+import { About2Component } from './about2/about.component'
 import { RegisterComponent } from './register/register.component'
 import { ForgotPasswordComponent } from './forgot-password/forgot-password.component'
 import { SearchResultComponent } from './search-result/search-result.component'
@@ -57,6 +58,10 @@ const routes: Routes = [
   {
     path: 'about',
     component: AboutComponent
+  },
+  {
+    path: 'about2',
+    component: About2Component
   },
   {
     path: 'address/select',
